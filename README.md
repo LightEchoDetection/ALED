@@ -1,7 +1,7 @@
 # Automatic Light Echo Detection (ALED)
 
 ## Installation:
-1. Install Python 3
+1. Install Python 3.7
 2. (Optional) create a virtual environment: `virtualenv aledpy`, and activate virtual environment: `source aledpy/bin/activate`
 3. Install jupyter notebook: `pip install jupyterlab`
 4. Install dependencies via `pip install ...`
