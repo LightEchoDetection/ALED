@@ -47,3 +47,6 @@ To check if the dependencies have been installed correctly open `test.ipynb` and
 * `snle_candidates.txt`: Will contain the following line `test.fits 375.000000 440.000000 562.000000 0.731215 0.880019`.
 * `astro_package_pics/rpv_test.fits.png`: The routing path visualization image of `test.fits`.
 * `astro_package_pics/snle_test.fits.png`: `test.fits` in .png format
+
+## Re-Train Model
+The user must have a dataset in order to re-train the model as one is not provided. The re-training script is titled `retrain_script.ipynb` in this repository. We recommend that the dataset contain an equal number of light-echo and non-light-echo images to prevent any class imbalance issues that may arise. The script demonstrates how to train a new model with the same architecture as ALED-m, and starting from the weights learned by ALED-m.
